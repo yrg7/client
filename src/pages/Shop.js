@@ -12,11 +12,13 @@ const Shop = () => {
           <TypeBar />
         </Col>
         <Col md={9}>
-          <BrandBar/>
-          <DeviceList/>
+          <BrandBar />
+          <DeviceList />
         </Col>
       </Row>
-
+      <div>
+        test git
+      </div>
     </Container>
 
   )
