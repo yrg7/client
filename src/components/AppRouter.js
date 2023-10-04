@@ -7,7 +7,7 @@ const AppRouter = () => {
     //console.log(user)
     return (
         <Routes>
-            {user.isAutch && autchRoutes.map(Component  =>
+            {user.isAuth && autchRoutes.map(Component  =>
                 <Route key={Component.path} exact={Component.exact} path={Component.path} element={<Component.element />}></Route>
             )}
             { publicRoutes.map(Component  =>
